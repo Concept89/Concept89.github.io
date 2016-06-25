@@ -1,9 +1,13 @@
+
+
  body {
     font-family: sans-serif;
     margin: 50;
     width: 100%;
     height: 100%;
     background-color: #66CDAA;
+    ackground-image: url("home_concept.png");
+    background-repeat: no-repeat;
 }
 
 h1 {
