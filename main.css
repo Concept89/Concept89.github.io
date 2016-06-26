@@ -36,3 +36,18 @@ iframe {
   margin-left: 14cm;
 
 }
+h4{
+  font-size: 20px;
+  color: white;
+}
+.photobox {
+  margin-left: 3cm;
+  display: inline;
+}
+
+.banner {
+  font-family: "Helvetica",sans-serif;
+}
+.exeption{
+  color:blue;
+}
