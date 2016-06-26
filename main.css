@@ -29,3 +29,9 @@ p {
 ul {
   color: #FFFFFF;
 }
+<style>
+div.container {
+      border: 2px solid white;
+      text-align: center;
+    }
+</style>
