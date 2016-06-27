@@ -1,13 +1,9 @@
 
 
- body {
+html, body {
     font-family: sans-serif;
-    margin: 50px;
-    width: 100%;
-    height: 100%;
+    margin: 0px;
     background-color: #000000;
-    background-image: url("sfondo.png");
-    background-repeat: no-repeat;
 }
 
 h1 {
@@ -22,11 +18,16 @@ h3 {
     font-size: 20px;
     color: #FFFFFF;
 }
+h4{
+  font-size: 20px;
+  color: white;
+}
 p {
     color: #FFFFFF;
 }
 .box {
   text-align: center;
+  margin: 300px 0px 0px 0px;
 }
 
 ul {
@@ -34,10 +35,19 @@ ul {
 }
 iframe {
   margin-left: 14cm;
-
 }
-h4{
-  font-size: 20px;
+.main {
+  background-image: url("sfondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 0px;
+  padding: 130px 0;
+}
+.introduction{
+  margin-left: 1cm;
+}
+.concetto{
   color: white;
 }
 .photobox {
@@ -51,4 +61,8 @@ h4{
 }
 .exeption{
   color:blue;
+}
+
+.img-width {
+  width: 100%;
 }
