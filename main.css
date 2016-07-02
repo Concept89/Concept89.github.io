@@ -29,7 +29,13 @@ p {
   text-align: center;
   margin: 300px 0px 0px 0px;
 }
-
+.navbar {
+  Border: 2px dotted white;
+  Padding: 20px;
+  Margin: 40px;
+  Width: 350px;
+  Background-color: black;
+}
 ul {
   color: #FFFFFF;
 }
