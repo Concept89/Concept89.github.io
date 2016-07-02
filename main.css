@@ -54,6 +54,9 @@ iframe {
 .introduction{
   margin-left: 1cm;
 }
+.menu{
+  display: inline;
+}
 .concetto{
   color: white;
 }
