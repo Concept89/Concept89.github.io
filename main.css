@@ -54,8 +54,14 @@ iframe {
 .introduction{
   margin-left: 1cm;
 }
-.menu-det{
+.menu{
   display: inline;
+}
+.logo{
+  float:left;
+}
+#rete{
+  float:right;
 }
 .concetto{
   color: white;
