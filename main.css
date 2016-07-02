@@ -30,7 +30,7 @@ p {
   margin: 300px 0px 0px 0px;
 }
 .navbar {
-  /*contatti into margin*/
+  /*contacts into margin*/
   Border: 2px dotted white;
   Padding: 20px;
   Margin: 40px;
@@ -69,7 +69,9 @@ iframe {
 .logo{
   float:left;
 }
-
+#rete{
+  float:right;
+}
 .concetto{
   color: white;
 }
