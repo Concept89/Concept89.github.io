@@ -53,16 +53,23 @@ iframe {
 }
 .introduction{
   margin-left: 1cm;
+
 }
-.menu{
+.introduction h1 {
+  float:left;
+}
+.menu li {
   display: inline;
 }
+
+.description {
+  clear: both;
+}
+
 .logo{
   float:left;
 }
-#rete{
-  float:right;
-}
+
 .concetto{
   color: white;
 }
