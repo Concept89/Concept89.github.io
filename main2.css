@@ -1,0 +1,94 @@
+
+
+html, body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+h4{
+  font-size: 20px;
+  color: white;
+}
+p {
+    color: #FFFFFF;
+}
+.box {
+  text-align: center;
+  margin: -60px 0px 0px 0px;
+}
+.navbar {
+  /*contacts into margin*/
+  Border: 2px dotted white;
+  Padding: 20px;
+  Margin: 40px;
+  Width: 350px;
+  Background-color: black;
+}
+ul {
+  color: #FFFFFF;
+}
+iframe {
+  margin-left: 20px;
+}
+
+.logo{
+  float:left;
+}
+
+.introduction{
+  margin-left: 30px;
+}
+
+.introduction h1 {
+  float:left;
+
+}
+.menu li {
+  padding-left: 5px;
+  display: inline;
+}
+
+.description {
+  clear: both;
+  margin-left: 20px;
+}
+
+.concetto{
+  color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.photobox {
+  margin-left: 250px;
+  display: inline;
+}
+
+.banner {
+  font-family: "Helvetica",sans-serif;
+  text-align: center;
+}
+.exeption{
+  color:blue;
+}
+
+.img-width {
+  width: 100%;
+}
+
+.download_sfondo{
+margin-left: 40px;
+}
+.

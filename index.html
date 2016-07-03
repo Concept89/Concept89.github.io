@@ -9,101 +9,130 @@
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="main.css"/>
       <link rel="icon" type="png" href="concept2.png"/>
+      <!-- cambiare icon, fa pena -->
     </head>
-
     <body>
 
-      <div class="corpo">
 
-        <div class="main">
 
-          <div class="introduction">
-            <div class="row">
-              <div class="col-sm-2 col-sm-10">
-              <img class="logo" src="http://startup.registroimprese.it/startup/img/icona_lampadina_03.png" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-3 col-sm-9">
-                <h1>Concept</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-1">
-              </div>
-                <div class="col-sm-11">
-                  <div class="menu">
-                    <ul>
-                      <li>Home</li>
-                      <li>Chi siamo</li>
-                      <li>Idee</li>
-                      <li id="rete">Rete</li>
-                    </ul>
-                  </div>
-                </div>
-            </div>
-          </div>
-          <div class="description">
-            <hr>
-            <h2>Il tuo consulente online</h2>
-            <h3>Vuoi ridurre costi e inefficienze e aumentare esponenzialmente le entrate?</h3>
-            <h3>Sei nel posto giusto!</h3>
-            <h3>Eliminiamo bug e riottimizziamo i tuoi processi</h3>
-            <h3>Automatizziamo i processi affinchè le persone non si occupino di attività manuali ma generino vero valore</h3>
-            <h3>Contattaci per capire meglio come possiamo ottimizzare la tua azienda</h3>
-          </div>
 
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- hamburger -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-          <div class="box">
-            <p>Benvenuto in <strong>Concept!</strong> &#9786;</p>
-            <p>Quel luogo web in cui troverai quei concetti che <strong>ti cambieranno il modo di lavorare</strong></p>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#idee">Idee</a></li>
+            <li><a href="#rete">Rete</a></li>
+            <li><a href="#chi-siamo">Chi Siamo</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#entra-nella-rete">Entra nella rete</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+
+    <div id="home" class="jumbotron home">
+      <div class="home-container container">
+        <h1>Concept</h1>
+        <hr>
+          <div class="introduction">
+          <h2>"Condividiamo idee per creare valore condiviso"</h2>
           </div>
       </div>
+    </div>
 
-      <div class="concetto">
-        <p><a href="http://www.treccani.it/enciclopedia/concetto/"target="_blank">Cosa si intende per concetto?</a></p>
-        <marquee>Contattaci subito!</marquee>
-        <br>
+
+
+
+    <div id="idee" class="idee-container container">
+      <h1>Idee</h1>
+      <div class="row-riga1">
+        <div id="box1" class="col-sm-6 col-md-3">
+          <p>Sed varius dui vitae nulla iaculis fermentum. Donec elit mi, condimentum eget congue ac, ullamcorper vel sapien.</p>
+        </div>
+        <div id="box2" class="col-sm-6 col-md-3">
+        </div>
+        <div id="box3" class="col-sm-6 col-md-3">
+        <p>Nunc sed dignissim dolor. Ut metus lacus, consequat vitae augue eget, fringilla interdum libero. Duis et neque feugiat, mattis turpis quis, auctor mauris.</p>
+        </div>
+        <div id="box4" class="col-sm-6 col-md-3">
+        </div>
       </div>
 
-      <div class="banner">
-         <h4>Un team di esperti</h4>
-        <p>Ti fornirà <span class="exeption">la soluzione</span> ai tuoi problemi</p>
-      </div>
 
-      <div class="navbar">
-        <a href="pagina2.html"> <h3>Contatti:</h3> </a>
-        <ul>
-            <li><p>CEO : Laura Concetti <a href="mailto:lr.concetti@gmail.com?Subjet=Request%20info">lr.concetti@gmail.com</a></p></li>
-            <li><p>IT : Andrea Muzio</p></li>
-            <li><p>PURCHASING MNGR : Luca Marin</p></li>
-            <li><p>CUSTOMER SERVICE : Tesi Song</p></li>
-        </ul>
-      </div>
 
-      <br>
-      <div class="video-photo"
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/8jPQjjsBbIc" frameborder="0" allowfullscreen></iframe>
-          <img class="img-width" src="http://renegadeinc.com/wp-content/uploads/2015/09/business_enquiry_bg.jpg" alt="Focus your goals" title="Focus your goal"/>
-          <p><marquee>Condividi gli obiettivi con il tuo team, pianificateli e raggiungeteli insieme</marquee></p>
-      </div>
+        <div class="row-riga2">
+          <div id="box5" class="col-sm-6 col-md-3">
+          </div>
+          <div id="box6" class="col-sm-6 col-md-3">
+            <p>Vivamus fringilla ullamcorper ante, sed pharetra sem. Quisque faucibus sollicitudin justo sit amet volutpat.</p>
+          </div>
+          <div id="box7" class="col-sm-6 col-md-3">
+          </div>
+          <div id="box8" class="col-sm-6 col-md-3">
+          <p>Maecenas quis magna augue. Cras eu lectus non nunc eleifend semper nec ut ligula. Donec eu nulla egestas, consequat est non, pulvinar velit.</p>
+          </div>
+        </div>
 
-      <div class="photobox">
-          <img src="http://www.geniosoft.net/magazine/wp-content/uploads/2015/07/business.png" alt="It's time to plan" title="It's time to plan" width="25.5%"/>
-          <img src="https://peavyassociates.files.wordpress.com/2015/06/business-plan-300.jpg" alt="Write down your business plan" title="Write down your business plan" width="25.3%"/>
-          <img src="http://www.gaebler.com/images/Categories/Business-Plan.jpg" alt="Reach your goals" title="Reach your goals" width="22.9%"/>
-      </div>
+    </div>
 
-      <div class="download_sfondo">
-        <h3>Scarica lo sfondo</h3>
-          <a href="sfondo.png" download>
-          <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/699329-icon-57-document-download-128.png" target="_blank" alt="sfondo" />
-          </a>
+
+
+
+
+    <div id="rete" class="jumbotron rete">
+      <div class="rete-container">
+        <h1>Rete</h1>
+         <div class="la-rete">
+           <p>Entra nella rete per ampliare i tuoi orizzonti</p>
+         </div>
       </div>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </div>
+
+
+
+
+
+
+    <div id="chi-siamo" class="chi-siamo-container container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <p>CEO : Laura Concetti</p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <p>IT : Andrea Muzio</p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+        <p>PURCHASING MNGR : Luca Marin</p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+        <p>SALES MNG : Tesi Song</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
 
 </html>
